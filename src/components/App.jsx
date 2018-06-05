@@ -8,8 +8,8 @@ function App() {
     <Router>
       <div>
         {/* <HeaderBar /> */}
-        <Route name="sources" exact path="/" component={HomePage} />
-        <Route name="articles" path="/recipe/" component={RecipePage} />
+        <Route name="home" exact path="/" component={HomePage} />
+        <Route name="recipe" path="/recipe/" component={RecipePage} />
       </div>
     </Router>
   );
